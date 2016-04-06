@@ -28,6 +28,11 @@ header{
     color: #ffffff;
     text-decoration: none;
 }
+#main-img{
+    top:10px;
+    width:1980px;
+    height: auto;
+}
 #main-text{
     width:300px;
     height: auto;
