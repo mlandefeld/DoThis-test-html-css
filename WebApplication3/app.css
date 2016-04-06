@@ -1,0 +1,68 @@
+﻿html{
+    font-family: Muli, sans-serif;
+}
+body {
+    margin:0;
+}
+
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+
+header{background-color:#5E5C5E;height: 100px;width: 100%;z-index: 100;}
+header nav{}
+header nav .nav-container{width:1200px;margin: 0 auto;}
+header nav .nav-container ul{margin:0; padding:0;list-style:none;}
+header nav .nav-container ul li{display:inline-block}
+header nav a{text-decoration:none; color: #FFFFFF;}
+header nav a.logo{}
+header nav a.logo img{max-width:100px;}
+
+.hero{
+    background-image: url("http://learningworksforkids.com/wp-content/uploads/to-do-list-list-notepad.jpg");
+    background-size:cover;
+    height:600px;
+}
+
+.right{
+    float: right !important;
+}
+.left{
+    float: left !important;
+}
+
+/*button from http://codepen.io/thejamespower/pen/OVNYLL */
+.button.bottom-border {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.button.bottom-border:after {
+  position: absolute;
+  -webkit-transition: .3s;
+  transition: .3s;
+  content: '';
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+  background: #f7f7f7;
+}
+.button.bottom-border:hover {
+  cursor: pointer;
+}
+.button.bottom-border:hover:after {
+  width: 100%;
+  left: 0;
+}
